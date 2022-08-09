@@ -1,4 +1,4 @@
-export const IS_TESTNET = true;
+export const IS_TESTNET = false;
 export const CONTRACT_ADDRESS = "0x33aedb8fde934daf1263ba1d7b225984da6e7714";
 export const CONTRACT_ABI = require("./abi/WrappedUSDC.json");
 export const USDC_ADDRESS = IS_TESTNET ? "0x07865c6e87b9f70255377e024ace6630c1eaa37f" : "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48";
