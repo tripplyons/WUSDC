@@ -1,38 +1,13 @@
-# <h1 align="center"> Forge Template </h1>
+# WUSDC
 
-**Template repository for getting started quickly with Foundry projects**
+Wrapper Token for USDC (USD Coin)
 
-![Github Actions](https://github.com/foundry-rs/forge-template/workflows/CI/badge.svg)
+![Github Actions](https://github.com/tripplyons/WUSDC/workflows/CI/badge.svg)
 
-## Getting Started
+## Deployment
 
-Click "Use this template" on [GitHub](https://github.com/foundry-rs/forge-template) to create a new repository with this repo as the initial state.
-
-Or, if your repo already exists, run:
-```sh
-forge init
-forge build
-forge test
-```
-
-## Writing your first test
-
-All you need is to `import forge-std/Test.sol` and then inherit it from your test contract. Forge-std's Test contract comes with a pre-instatiated [cheatcodes environment](https://book.getfoundry.sh/cheatcodes/), the `vm`. It also has support for [ds-test](https://book.getfoundry.sh/reference/ds-test.html)-style logs and assertions. Finally, it supports Hardhat's [console.log](https://github.com/brockelmore/forge-std/blob/master/src/console.sol). The logging functionalities require `-vvvv`.
-
-```solidity
-pragma solidity 0.8.10;
-
-import "forge-std/Test.sol";
-
-contract ContractTest is Test {
-    function testExample() public {
-        vm.roll(100);
-        console.log(1);
-        emit log("hi");
-        assertTrue(true);
-    }
-}
-```
+- Ethereum Mainnet Address: 0x33aedb8fde934daf1263ba1d7b225984da6e7714
+- [Etherscan (Verified)](https://etherscan.io/address/0x33aedb8fde934daf1263ba1d7b225984da6e7714)
 
 ## Development
 
